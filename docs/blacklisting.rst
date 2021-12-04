@@ -36,6 +36,9 @@ To modify the blacklist, use the ``blacklist`` command. Go into a channel and ty
 ``blacklist clear``
     Clears all items from a sublist. Has one required parameter: ``sublist``. ``sublist`` must to be the sublist you want to clear.
 
+``blacklist reset``
+    Resets a sublist to it's defaults. Has 2 required parameters: ``sublist`` and ``langauge``. ``sublist`` must be the sublist you want to reset, and ``language`` must be the verbal language you want the sublist to be in. English is currently only supported, but more are coming soon.
+
 ``blacklist add``
     Adds items to a sublist. Has two required parameters: ``sublist`` and ``items``. ``sublist`` must to be the sublist you want to add items to, and ``items`` must to be items you want to add, seperated by commas.
 
