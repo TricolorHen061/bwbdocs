@@ -12,6 +12,7 @@ Managing strikes
 ----------------
 
 To manage a user's strikes, use the ``strikes`` command. Go in a channel and type "/strikes" into the message box. The following should appear:
+
 .. image:: strikes_subcommands.png
 
 ``strikes view``
@@ -22,5 +23,8 @@ To manage a user's strikes, use the ``strikes`` command. Go in a channel and typ
 
 Limits
 ------
-You can tell Bad Word Blocker to perform an action- such as banning, kicking, or muting- when a person reaches an amount of strikes. These are called ``limits``
+You can tell Bad Word Blocker to perform an action to a user- such as banning, kicking, or muting- when they reache an amount of strikes. These are called ``limits``
+
+Managing limits
+^^^^^^^^^^^^^^^
 
