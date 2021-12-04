@@ -29,20 +29,20 @@ link sublist
 Modiying the Blacklist
 ======================
 
-To modify the blacklist, use the ``blacklist`` command. Go to a message box (in a channel) and type in ``/blacklist``. The following should appear:
+To modify the blacklist, use the ``blacklist`` command. Go into a channel and type "/blacklist" into the message box. The following should appear:
 
-.. image:: ./blacklist_commands.png
+.. image:: ./blacklist_subcommands.png
 
 ``blacklist clear``
-    Clears all items from a sublist. Has one parameter: ``sublist``. ``sublist`` needs to be the sublist you want to clear.
+    Clears all items from a sublist. Has one required parameter: ``sublist``. ``sublist`` must to be the sublist you want to clear.
 
 ``blacklist add``
-    Adds items to a sublist. Has two parameters: ``sublist`` and ``items``. ``sublist`` needs to be the sublist you want to add items to, and ``items`` needs to be items you want to add, seperated by commas.
+    Adds items to a sublist. Has two required parameters: ``sublist`` and ``items``. ``sublist`` must to be the sublist you want to add items to, and ``items`` must to be items you want to add, seperated by commas.
 
 ``blacklist remove``
-    Adds items to a sublist. Has two parameters: ``sublist`` and ``items``. ``sublist`` needs to be the sublist you want to remove items from, and ``items`` needs to be items you want to remove, seperated by commas.
+    Adds items to a sublist. Has two required parameters: ``sublist`` and ``items``. ``sublist`` must to be the sublist you want to remove items from, and ``items`` must to be items you want to remove, seperated by commas.
 
 ``blacklist view``
-    Allows you to view a sublist. Has one parameter: ``sublist``. ``sublist`` needs to be the sublist you want to view.
+    Allows you to view a sublist. Has one required parameter: ``sublist``. ``sublist`` must to be the sublist you want to view.
 
 
