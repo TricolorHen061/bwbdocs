@@ -8,3 +8,4 @@ Welcome to the official documentation for Bad Word Blocker, an advanced filterin
    :maxdepth: 2
 
    inviting
+   blacklisting
