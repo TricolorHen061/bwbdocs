@@ -46,5 +46,3 @@ To modify the blacklist, use the ``blacklist`` command. Go to a message box (in 
     Allows you to view a sublist. Has one parameter: ``sublist``. ``sublist`` needs to be the sublist you want to view.
 
 
-
-

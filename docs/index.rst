@@ -5,7 +5,6 @@ Welcome to the official documentation for Bad Word Blocker, an advanced filterin
 
 
 .. toctree::
-   :maxdepth: 3
-
+   index
    inviting
    blacklisting
