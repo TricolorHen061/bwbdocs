@@ -29,9 +29,9 @@ link sublist
 Customizing the Blacklist
 =========================
 
-To modify the blacklist, use the `/blacklist` command. Go to a message box (in a channel) and type in `/blacklist`. The following should appear:
+To modify the blacklist, use the ``/blacklist`` command. Go to a message box (in a channel) and type in ``/blacklist``. The following should appear:
 
-.. image:: blacklist_commands.png
+.. image:: ./blacklist_commands.png
 
 You can use these subcommands to customize the blacklist to your liking.
 
