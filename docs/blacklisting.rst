@@ -26,30 +26,25 @@ phrase sublist
 link sublist
     A sublist for website links.
 
-Avaliable subcommands
-=====================
+Modiying the Blacklist
+======================
 
 To modify the blacklist, use the ``blacklist`` command. Go to a message box (in a channel) and type in ``/blacklist``. The following should appear:
 
 .. image:: ./blacklist_commands.png
 
-You can use these subcommands to customize the blacklist to your liking.
+``blacklist clear``
+    Clears all items from a sublist. Has one parameter: ``sublist``. ``sublist`` needs to be the sublist you want to clear.
 
-Adding/removing items
----------------------
+``blacklist add``
+    Adds items to a sublist. Has two parameters: ``sublist`` and ``items``. ``sublist`` needs to be the sublist you want to add items to, and ``items`` needs to be items you want to add, seperated by commas.
 
-There are two subcommands- ``add`` and ``remove``- that allow you to add and remove from the blacklist. 
+``blacklist remove``
+    Adds items to a sublist. Has two parameters: ``sublist`` and ``items``. ``sublist`` needs to be the sublist you want to remove items from, and ``items`` needs to be items you want to remove, seperated by commas.
 
-.. image:: ./add_remove_subcommands.png
+``blacklist view``
+    Allows you to view a sublist. Has one parameter: ``sublist``. ``sublist`` needs to be the sublist you want to view.
 
-Both of the commands have two parameters: ``sublist`` and ``items``
 
-sublist
-    Sublist you'd like to modify
 
-items
-    Items you'd like to add to the selected ``sublist``. You can enter multiple items by seperating them with commas.
 
-For example, to add the words ``test1`` and ``test2`` to the ``exact-match word sublist``, this is what your command should look like:
-
-.. image:: ./example_add_subcommand.png
