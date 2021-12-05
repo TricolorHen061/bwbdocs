@@ -29,10 +29,7 @@ link sublist
 Modiying the Blacklist
 ======================
 
-To modify the blacklist, use the ``blacklist`` command. Go into a channel and type "/blacklist" into the message box. The following should appear:
-
-.. image:: ./blacklist_subcommands.png
-
+To modify the blacklist, use the ``blacklist`` command:
 
 ``blacklist clear``
     Clears all items from a sublist. Has one required parameter: ``sublist``. ``sublist`` must to be the sublist you want to clear.
@@ -49,4 +46,3 @@ To modify the blacklist, use the ``blacklist`` command. Go into a channel and ty
 ``blacklist view``
     Allows you to view a sublist. Has one required parameter: ``sublist``. ``sublist`` must to be the sublist you want to view.
 
-You can use these commands to modify the blacklist as you wish.
