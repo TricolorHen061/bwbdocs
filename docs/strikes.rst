@@ -13,8 +13,6 @@ Managing strikes
 
 To manage a user's strikes, use the ``strikes`` command:
 
-.. image:: strikes_subcommands.png
-
 ``strikes view``
     View the number of strikes a user has. Has 1 optional parameter: ``user``. ``user`` must be the user whose strikes you want to see.
 

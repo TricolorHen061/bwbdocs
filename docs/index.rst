@@ -11,3 +11,4 @@ Welcome to the official documentation for Bad Word Blocker, an advanced filterin
    strikes
    bypassing_and_ignoring
    logs
+   moderation
