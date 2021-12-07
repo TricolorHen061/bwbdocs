@@ -12,4 +12,4 @@ Welcome to the official documentation for Bad Word Blocker, an advanced filterin
    bypassing_and_ignoring
    logs
    moderation
-   bypassing_and_ignoring
+   configuration_and_customization
