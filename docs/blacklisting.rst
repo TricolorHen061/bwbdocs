@@ -26,7 +26,7 @@ phrase sublist
 link sublist
     A sublist for website links.
 
-Modiying the Blacklist
+Modifying the Blacklist
 ======================
 
 To modify the blacklist, use the ``blacklist`` command:
