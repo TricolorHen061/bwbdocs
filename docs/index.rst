@@ -7,9 +7,11 @@ Welcome to the official documentation for Bad Word Blocker, an advanced filterin
 .. toctree::
    before_you_read
    inviting
+   thanks_for_inviting
    blacklisting
    strikes
    bypassing_and_ignoring
    logs
    moderation
    configuration_and_customization
+   miscellaneous
