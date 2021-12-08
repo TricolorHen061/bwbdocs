@@ -5,10 +5,10 @@ While Bad Word Blocker is meant for filtering messages, it has some moderation c
 Moderation Command List
 -----------------------
 
-``/ban``
+``ban``
     Bans a member. Has one required parameter, and two optional parameters: ``member``, ``reason``, and ``hours``. ``member`` should be the member you want to ban. ``reason`` is why you are banning them. ``hours`` is how many hours before the bot should unban them.
 
-``/unban``
+``unban``
     Unbans a member (if they are banned). Has two required parameters, and one optional parameter: ``username``, ``tag``, and ``reason``. ``username`` is the exact username of the member you want to unban. ``tag`` is their tag. ``reason`` is why you're unbanning them.
 
 ``clear``
