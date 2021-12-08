@@ -4,7 +4,7 @@ This page will teach you how to customize some aspects of the bot.
 
 Customizing the "Message Blocked" embed
 ---------------------------------------
-There are a few commands you can use to customize the behavior of the bot sends when it blocks a message:
+There are a few commands you can use to customize the behavior of the bot when it blocks a message:
 
 ``cleanup set``
     Tells the bot to "cleanup", or delete it's message after a specified amount of seconds. Has one parameter: ``seconds``. ``Seconds`` is the amount of time it should wait before deleting the message.
