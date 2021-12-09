@@ -5,7 +5,7 @@ December 2021 Update
 This is probably the biggest update this bot has ever had, not because of it's size, but because of how it fixes the bots greatest weakness: 
 
 - How easy it was to circumvent by mispelling words
-- Lack of doucmentation
+- Lack of documentation
 
 Below is a list of what this update includes.
 
