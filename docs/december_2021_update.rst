@@ -1,6 +1,6 @@
 December 2021 Update
 ====================
-**This short article outlines the December 2021 update. If you just want to get on to how to use the bot now, use the bar on the left.**
+**This short article outlines the December 2021 update. If you just want to learn how to use the bot now, a good place to start is :doc:`blacklisting`**
 
 This is probably the biggest update this bot has ever had, not because of it's size, but because of how it fixes the bots greatest weakness: 
 
@@ -27,3 +27,5 @@ Filtering system reworked
 
 New documentation
     There is new documentation for the bot. It's the website you're on right now! This long-overdue update was made because there was an increasing amount of people getting confused about how to use the bot. You can simply use the bar on the left to navigate the documentation.
+
+There was a lot of other small things fixed, like how anyone could run the ``/unmute`` command without permissions.
