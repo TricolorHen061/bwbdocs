@@ -1,6 +1,7 @@
 December 2021 Update
 ====================
 This is probably the biggest update this bot has ever had, not because of it's size, but because of how it fixes the bots greatest weakness: 
+
 - How easy it was to circumvent by mispelling words
 - Lack of doucmentation
 
@@ -20,10 +21,7 @@ Filtering system reworked
 
     - "in-word-match word list"
 
-    .. ref::
-        blacklisting
-
-    You can read about how this works here.
+    You can read about how this works `here <blacklisting>`_.
 
 New documentation
     There is new documentation for the bot. It's the website you're on right now. I made this because I saw an increasing number ofpeople getting confused on using the bot, and there was just a lack of instructions in general. Not anymore!
