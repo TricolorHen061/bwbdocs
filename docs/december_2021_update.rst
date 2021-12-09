@@ -1,6 +1,6 @@
 December 2021 Update
 ====================
-**This short article outlines the December 2021 update. If you just want to learn how to use the bot now, a good place to start is :doc:`blacklisting`**
+**This short article outlines the December 2021 update. If you just want to learn how to use the bot now, a good place to start is** :doc:`blacklisting`
 
 This is probably the biggest update this bot has ever had, not because of it's size, but because of how it fixes the bots greatest weakness: 
 
