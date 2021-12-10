@@ -9,7 +9,6 @@ This is probably the biggest update this bot has ever had, not because of it's s
 - How easy it was to circumvent by mispelling words
 - Lack of documentation
 
-Below is a list of what this update includes.
 
 All list commands combined
     All commands that were used to modify lists- ``/badwordlist``, ``/links``, ``/badphraselist``- into one new command: ``/blacklist``. This was done to lessen the amount of commands people have to remember, and because it's less messy.
