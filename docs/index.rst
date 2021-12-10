@@ -15,3 +15,4 @@ Welcome to the official documentation for Bad Word Blocker, an advanced filterin
    moderation
    configuration_and_customization
    miscellaneous
+   december_2021_update

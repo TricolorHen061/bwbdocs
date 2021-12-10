@@ -4,4 +4,4 @@ Thanks for Inviting the bot!
 
 However, if you want to learn how to customize the bot to make it yours, this is the right place. Just choose a category from the bar on the left.
 
-If you have a problem, question, or just want to join the community, there is a `community server <hzrauvY>`_ you can join.
+If you have a problem, question, or just want to join the community, there is a `community server <https://discord.com/invite/hzrauvY>`_ you can join.
