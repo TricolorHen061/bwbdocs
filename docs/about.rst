@@ -8,7 +8,7 @@ The feature of deleting messages if they contained a word was originally impleme
 
 As soon as it was released on `Top.gg <https://top.gg>`_, it blew up. It gained more servers in 48 hours than Tribuntu did in 3 weeks. I then created what is now the `Bad Word Blocker Community Server <https://top.gg/servers/722594194513723987/join>`_.
 
-Fast-foward almost 2 years later, and re-written in the `TypeScript <https://www.typescriptlang.org/>` programming language by me, Bad Word Blocker is within the top 1,000 bots on Discord. It's in about 4,500 servers (at time of writing). It's scanned over way above 5,000,000 messages, and did something I've always wanted to do: help people.
+Fast-foward almost 2 years later, and re-written in the `TypeScript <https://www.typescriptlang.org/>`_ programming language by me, Bad Word Blocker is within the top 1,000 bots on Discord. It's in about 4,500 servers (at time of writing). It's scanned over way above 5,000,000 messages, and did something I've always wanted to do: help people.
 
 Current Technical Information:
 
