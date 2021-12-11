@@ -5,6 +5,9 @@ Blacklisting
 This page will teach you how to make the bot block words, phrases, and links of your choosing.
 
 
+..note::
+    If you invited the bot before December 10th, 2021, you may want to populate your server's lists with ``blacklist reset``, since the update changed things.
+
 What is the Blacklist?
 ======================
 The \"blacklist\" is a list of items you want Bad Word Blocker to block. For organization, the blacklist has been broken down into 4 sublists:
