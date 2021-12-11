@@ -15,4 +15,4 @@ Adding the phrase ``screw you`` to the "phrase list"
 Adding a limit so that when a person gets 5 strikes, they get muted for 24 hours
 
 .. image::
-    add_limit.png
+    images/add_limit.png
