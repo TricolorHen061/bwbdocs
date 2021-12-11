@@ -5,6 +5,7 @@ Welcome to the official documentation for Bad Word Blocker, an advanced filterin
 
 
 .. toctree::
+   december_2021_update
    before_you_read
    inviting
    thanks_for_inviting
@@ -15,7 +16,6 @@ Welcome to the official documentation for Bad Word Blocker, an advanced filterin
    moderation
    configuration_and_customization
    miscellaneous
-   december_2021_update
    examples
    ethics
    about
