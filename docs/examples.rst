@@ -16,3 +16,8 @@ Adding a limit so that when a person gets 5 strikes, they get muted for 24 hours
 
 .. image::
     images/add_limit.png
+
+Set a log channel
+
+.. image::
+    images/set_log_channel.png 
