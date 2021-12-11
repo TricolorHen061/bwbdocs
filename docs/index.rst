@@ -18,3 +18,4 @@ Welcome to the official documentation for Bad Word Blocker, an advanced filterin
    december_2021_update
    examples
    ethics
+   about
