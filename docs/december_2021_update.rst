@@ -11,9 +11,13 @@ This is probably the biggest update this bot has ever had, not because of it's s
 
 
 All list commands combined
-    All commands that were used to modify lists- ``/badwordlist``, ``/links``, ``/badphraselist``- into one new command: ``/blacklist``. This was done to lessen the amount of commands people have to remember, and because it's less messy.
+    All commands that were used to modify lists- ``/badwordlist``, ``/links``, ``/badphraselist``- were merged into one new command: ``/blacklist``. This was done to lessen the amount of commands people have to remember, and because it's less messy.
 
 Filtering system reworked
+
+    .. note:: 
+        If you invited the bot before December 10th, and want to get the default preset for the new list mentioned below, use ``/blacklist reset``.
+
     As mentioned above, all filtering commands can now be done with ``/blacklist``. Along with this update, the names of the lists were changed:
 
     - "badwordlist" -> "exact-match word list"
