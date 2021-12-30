@@ -6,7 +6,7 @@ This page will teach you how to make the bot block words, phrases, and links of 
 
 
 .. note::
-    If you invited the bot before December 10th, 2021, you may want to populate your server's lists with ``blacklist reset``, since the update changed things.
+    If you invited the bot before December 10th, 2021, you may want to populate your server's lists with ``blacklist reset``, since the update added on to the word section.
 
 What is the Blacklist?
 ======================
