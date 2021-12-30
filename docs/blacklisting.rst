@@ -19,7 +19,7 @@ The \"blacklist\" is a list of items you want Bad Word Blocker to block. Bad Wor
 - link section
  
 word section
-    A section for individual words. `exact-match` refers to words you want the bot to block only if an exact match is found (e.g **test**, not **test**ing, since "ing" is on the end). `In-word-match` is the opposite: it will block words if a word is found, regardless if there is an prefix, suffix, or any other letters on it (e.g **test**, **test**ing, **test**ed) would all work. You'll be able to pick which `match` you want when you add words to the blacklist. 
+    A section for individual words. `exact-match` refers to words you want the bot to block only if an exact match is found (e.g **test**, not testing, since "ing" is on the end). ``In-word-match`` is the opposite: it will block words if a word is found, regardless if there is an prefix, suffix, or any other letters on it (e.g **test**, **testing**, **tested**) would all work. You'll be able to pick which `match` you want when you add words to the blacklist. 
 
 phrase section
     A section for phrases, a set of 2 or more words. 
