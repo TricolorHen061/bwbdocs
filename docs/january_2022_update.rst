@@ -6,6 +6,7 @@ This update basically simplifies the last :doc:`December 2021 update`, and added
 In the last update, "sublists" of the "blacklist" was released. It was a bit confusing, so it's been renamed to "sections". `exact-match` and `in-word-match` have been merged into the "word section". When you add words, you'll be asked if you want the words to be blocked if an exact match is found, or an in-word-match. Asking *after* the user adds the words makes it a whole lot easier to understand.
 
 **Blacklist command updated**
+
 `/blacklist add`
     Instead of having to choose between the 4 sublists like before, you only have 3 options, "word", "phrase", and "link". The bot will put them in their respective sections. Like mentoned above, when you choose "words", it will ask how you want the bot to block the words.
 
@@ -19,4 +20,4 @@ In the last update, "sublists" of the "blacklist" was released. It was a bit con
 The last update fixed the bot being easy to bypass, but also made the bot super sensitive. It would block messages that were not bad. This has been fixed.
 
 **Permission Errors**
-    The bot will tell you what permission it lacks or why it cannot moderate a user when a permission error occours.
+The bot will tell you what permission it lacks or why it cannot moderate a user when a permission error occours.
