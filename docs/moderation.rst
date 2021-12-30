@@ -6,7 +6,7 @@ Moderation Command List
 -----------------------
 
 ``ban``
-    Bans a member. Has one required parameter, and two optional parameters: ``member``, ``reason``, and ``hours``. ``member`` should be the member you want to ban. ``reason`` is why you are banning them. ``hours`` is how many hours before the bot should unban them.
+    Bans a member. Has one required parameter, and two optional parameters: ``member``, ``reason``, and ``minutes``. ``member`` should be the member you want to ban. ``reason`` is why you are banning them. ``minutes`` is how many minutes before the bot should unban them.
 
 ``unban``
     Unbans a member (if they are banned). Has two required parameters, and one optional parameter: ``username``, ``tag``, and ``reason``. ``username`` is the exact username of the member you want to unban. ``tag`` is their tag. ``reason`` is why you're unbanning them.
@@ -17,15 +17,8 @@ Moderation Command List
 ``kick``
     Kicks a member. Has one required parameter, and two optional parameter: ``member`` and ``reason``. ``member`` is the member you want to kick, and ``reason`` is why you are kicking them.
 
-``muterole set``
-    Tells the bot what role it should use when muting people. Has two parameter: ``role``. ``role`` is the role you want the bot to use when it mutes people. 
+``timeout add``
+    Puts a member in timeout. Has two required parameters, and one optional parameter: ``member``, ``minutes``, and ``reason``. ``member`` is the member you want to put into timeout, ``minutes`` is how many minutes you want the bot to wait before removing their timeout, and ``reason`` is the reason why you're putting them in timeout.
 
-``muterole remove``
-    Removes the mute role (if it already has been set with the above command).
-
-``mute``
-    Mutes a member. Has one required parameter, and two optional parameters: ``member``, ``reason``, and ``hours``. ``member`` is the member you want to mute, ``reason`` is the reason why you're muting them, and ``hours`` is how many hours you want the bot to wait before unmuting them.
-
-``unmute``
-    Unmutes a member (if they have been muted). Has one required parameter, and one optional: ``member`` and ``reason``. ``member`` is the member you want to unmute, and ``reason`` is why you're unmuting them.
-
+``timeout undo``
+    Removes a member from timeout. Has one required parameter, and one optional parameter: ``member``, and ``reason``. ``member`` is the member you want to remove from timeout, and ``reason`` is the reason why you're removing them from timeout.

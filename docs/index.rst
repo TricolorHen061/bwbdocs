@@ -5,7 +5,7 @@ Welcome to the official documentation for Bad Word Blocker, an advanced filterin
 
 
 .. toctree::
-   december_2021_update
+   january_2022_update
    before_you_read
    inviting
    thanks_for_inviting
