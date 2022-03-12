@@ -1,5 +1,5 @@
 Customization
-=============
+*************
 
 This article will teach you how to customize how the bot behaves when it blocks a message.
 
