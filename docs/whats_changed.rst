@@ -14,7 +14,7 @@ What was removed
 - The dashboard was shut down
   
 What was added
---------------
+==============
 - A simplified blacklisting system. You can now manage the entire blacklist with ``/blacklist`` in a simple-to-use interface
 - Better false-positive detecting. The older bot would often get false positives. This version is 95% better at catching them
 - Less commands. I've managed to chop down the commands to 20. Much better than the 34+ the bot used to have.
