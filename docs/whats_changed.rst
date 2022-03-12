@@ -1,7 +1,7 @@
 What's changed?
 ***************
 
-You may be here because you noticed that the bot started acting a bit weird. This is because the bot was remade from scracth, and some features were removed or changed.
+You may be here because you noticed that the bot started acting a bit weird. This is because the bot was remade from scratch, and some features were removed or changed.
 
 What was removed
 ================
