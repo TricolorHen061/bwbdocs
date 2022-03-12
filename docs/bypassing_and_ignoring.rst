@@ -1,34 +1,18 @@
-Bypassing and Ignoring
-======================
-This page will teach you how to allow channels and people with and certain roles to bypass the bot filter.
+*********
+Bypassing
+*********
 
-What are Bypasses and Ignores?
-------------------------------
-When a role allows people to bypass the filter, it's called `bypassing`. When a channel bypasses the filter, it's called `ignoring`.
+Sometimes, you'll want certain roles or channels to bypass the bot's filter. This article will show you how to do that.
 
-Managing Bypasses
------------------
-Bypasses can be managed with the ``/bypass`` command:
+=================
+Using ``/bypass``
+=================
 
-``bypass add``
-    Allows a role to bypass the bot. Has one required parameter: ``role``. ``role`` is the role you want to allow to bypass. Anyone with the role will be able to bypass the bot's filter.
+You can allow roles and channels to bypass the bot. The ``/bypass`` command has corrosponding subcommands for them:
 
-``bypass remove``
-    Stops a role (that's already allowed to bypass) from being able to bypass the filter. Has one parameter: ``role``. ``role`` is the role you want to stop being able to bypass the filter.
+- ``/bypass role``
+- ``/bypass channel``
+  
+Obviously, ``/bypass role`` is for allowing a role to bypass the bot, and ``/bypass channel`` is for allowing a channel to bypass the bot. Just run them and fill out the parameters that are shown on-screen accordingly.
 
-``bypass view``
-    Allows you to view what role are bypassing.
-
-Managing Ignores
------------------
-The process is basically idential to ``bypasses``; ignores can be managed with the ``/ignore`` command:
-
-``ignore add``
-    Allows a channel to bypass the bot. Has one required parameter: ``channel``. ``channel`` is the channel you want to bypass the bot's filter. 
-
-``ignore remove``
-    Stops a channel (that's already allowed to ignore) from being able to bypass the filter. Has one parameter: ``channel``. ``channel`` is the channel you want to stop being able to bypass.
-
-``ignore view``
-    Allows you to view which channels bypassing.
-
+If you want to remove a role or channel from bypassing, use `/bypass manage`.

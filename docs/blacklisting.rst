@@ -2,48 +2,44 @@
 Blacklisting
 ************
 
-This page will teach you how to make the bot block words, phrases, and links of your choosing.
+This article will show you how to manage the blacklist for your server.
+
+================================
+Using the ``/blacklist`` command
+================================
+
+When you run `/blacklist`, you'll see this:
 
 
 .. note::
-    If you invited the bot before December 10th, 2021, you may want to populate your server's lists with ``blacklist reset``, since the update added on to the word section.
+    When you run it for the first time, you'll see that it's already filled with the defaults. Feel free to change it to however you want.
 
-What is the Blacklist?
+As you can see in the image, the blacklist is seperated into 4 parts:
+
+Exact-match words
+    Words that will be blocked only if they are found *exactly* as they are written in the blacklist. So for example, if you add the word "suck" here, it will *only* block "suck". Not "sucked", "sucking", "sucker", or any other forms.
+
+Inexact-match words
+    Opposite to the above section. Words that will be blocked if they found *exactly* or *inexactly*. So for example, if you add the word "screw" here, it will block "screw", "screwed", "screwing", and all other forms. It will also try to detect attempted bypasses by purposely mispelling words, adding symbols, and/or others.
+
+Phrases
+    This section is for when you want to block a *group* of 2 or more words, instead of individual ones. You can add phrases like "screw you" here, for example.
+
+Links
+    For website links. Note that they have to start with either ``http`` or ``https``, or the bot won't count it as a valid link.
+
+====================
+Editing the sections 
+====================
+
+Editing the sections are very straitfoward. Just type in the items you want and hit the ``Submit`` button when you're done. Make sure the items are seperated by a comma ``,``. While it doesn't matter, it's recommended that you seperate them with a comma *and* a space ``, ``, for readability.
+
+
 ======================
-The \"blacklist\" is a list of items you want Bad Word Blocker to block. Bad Word Blocker can block 3 things: words, phrases, and links. Each have their own "section" in the blacklist:
-
-- word section
- - exact-match
- - in-word-match
-- phrase section
-- link section
- 
-word section
-    A section for individual words. `exact-match` refers to words you want the bot to block only if an exact match is found (e.g **test**, not testing, since "ing" is on the end). ``In-word-match`` is the opposite: it will block words if a word is found, regardless if there is an prefix, suffix, or any other letters on it (e.g **test**, **testing**, **tested**) would all work. You'll be able to pick which `match` you want when you add words to the blacklist. 
-
-phrase section
-    A section for phrases, a set of 2 or more words. 
-
-link section
-    A section for website links.
-
-Using the Blacklist
+Adding non-swear items
 ======================
 
-To add, remove, view, and more with the blacklist, use the ``blacklist`` command:
+While the bot is meant for blocking *bad* words, links, and phrases, it can also block normal ones if you add them.
 
-``blacklist clear``
-    Clears all items from a section. Has one required parameter: ``section``. ``section`` must to be the section you want to clear.
-
-``blacklist reset``
-    Resets a section to it's defaults. Has 2 required parameters: ``section`` and ``langauge``. ``section`` must be the section you want to reset, and ``language`` must be the verbal language you want the section to be in. English is currently only supported, but more are coming soon.
-
-``blacklist add``
-    Adds items to the blacklist. Has two required parameters: ``type`` and ``items``. ``type`` must to be the type  of item (word, phrase, or link) you want to add to the blacklist. The bot will put them in their respective section automatically. ``items`` must to be items you want to add, seperated by commas.
-
-``blacklist remove``
-    Removes items from the blacklist. Has two required parameters: ``type`` and ``items``. ``type`` must the type of item (word, phrase, or link) you want to remove. They will be removed automatically from their section. ``items`` must to be items you want to remove, seperated by commas.
-
-``blacklist view``
-    Allows you to view the full blacklist via website or downloadable file.
-
+.. warning::
+    If you are adding normal words to the ``Inexact-match`` section, you have to put an underscore ``_`` in front of the word.
