@@ -3,6 +3,9 @@ What's changed?
 
 You may be here because you noticed that the bot started acting a bit weird. This is because the bot was remade from scratch, and some features were removed or changed.
 
+
+This update is brand new. If you have problems, PLEASE let me know. discord.gg/hzrauvY
+
 What was removed
 ================
 - Verification system
