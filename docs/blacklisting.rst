@@ -8,13 +8,15 @@ This article will show you how to manage the blacklist for your server.
 Using the ``/blacklist`` command
 ================================
 
-When you run `/blacklist`, you'll be prompted with a popup that has 4 slots.
+When you run `/blacklist`, you'll be prompted with a popup like this:
+
+.. image:: blacklist_popup.png
 
 
 .. note::
     When you run it for the first time, you'll see that it's already filled with the defaults. Feel free to change it to however you want.
 
-It's seperated into 4 parts:
+As you can see in the image, it's seperated into 4 sections:
 
 Exact-match words
     Words that will be blocked only if they are found *exactly* as they are written in the blacklist. So for example, if you add the word "suck" here, it will *only* block "suck". Not "sucked", "sucking", "sucker", or any other forms.
