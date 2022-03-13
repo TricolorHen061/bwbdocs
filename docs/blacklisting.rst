@@ -10,8 +10,7 @@ Using the ``/blacklist`` command
 
 When you run `/blacklist`, you'll be prompted with a popup like this:
 
-.. image:: 
-    blacklist_popup.png
+.. image:: images/blacklist_popup.png
 
 
 .. note::
