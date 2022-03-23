@@ -14,4 +14,6 @@ Welcome to the official documentation for Bad Word Blocker. Here, you can learn 
    bypassing_and_ignoring
    logs
    configuration_and_customization
+   tos
+   privacy_policy
    about
