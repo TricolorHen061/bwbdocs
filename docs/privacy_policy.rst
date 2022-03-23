@@ -8,4 +8,3 @@ Bad Word Blocker collects data needed to deliver features. It collects:
 - ``Channel IDs``: Used to identify channels, so the bot knows where to send logs (if you set it up)
 - ``Role IDs``: Used to identify roles, in case you want a role to bypass the bot's filter
 - ``Messages``: Bad Word Blocker will ``ONLY`` store a message if it gets deleted, in case you want it back with the `/get` command. No other messages are logged.
-  
