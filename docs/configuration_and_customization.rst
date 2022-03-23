@@ -12,15 +12,25 @@ Content
     What the bot will send when it blocks a message
     Placeholders:
         ``{username}`` - The author's username
+
         ``{tag}`` - The author's tag (the 4 numbers after their #)
+
         ``{mention}`` - The author's @mention
+
         ``{deleted_message}`` - The contents of the deleted message
+
         ``{strikes}`` - The new amount of strikes they have
+
         ``{strikes_remaining}`` - If you have a limit set up, how many strikes are left until they reach the next one. 
+        
         ``{date}`` - Date of when the message was deleted
+        
         ``{blacklisted_item}`` - The blacklisted item found that caused the deleted of the message
+        
         ``{next_limit_action}`` - If you have a limit set up, the action of the next limit
+        
         ``{next_limit_minutes}`` - If you have a limit set up, the minutes of the next limit
+        
         ``{next_limit_strikes}`` - If you have a limit set up, the strikes of the next limit.
 
 Color
