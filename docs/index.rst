@@ -11,6 +11,7 @@ Welcome to the official documentation for Bad Word Blocker. Here, you can learn 
    inviting
    blacklisting
    strikes
+   limits
    bypassing_and_ignoring
    logs
    configuration_and_customization
