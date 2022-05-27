@@ -55,7 +55,9 @@ Blacklist FAQ
 
 **Answer**: Make sure:
 - The bot can see the channel's messages, and has the Manage Message permission. You can just give it Administrator to get rid of this problem entirely
+
 - Make sure your blacklist is not empty. If you're trying to block good words in the inexact-match section, put an underscore in front of the good words in the blacklist
+
 - Click on the bot's profile, and check if there's a green dot by it's logo (meaning it's online). If you see a grey, empty circle, it mean's the bot is offline. If this is the case, please join the support server and tell.
 
 
