@@ -47,13 +47,18 @@ Blacklist FAQ
 =============
 
 **Question**: What does an underscore in front of a blacklisted word mean???
+
 **Answer**: When the English language was being created, I guess the creators thought it'd be funny to put bad words in normal words and phrases. Some of these words, for example, are "mASS", "clASS", "That's a BIT CHeap!", and even "I uSE Xbox" (Look at the uppercase letters). These types of words are everywhere. If the bot based it's filter off of only checking if a bad word is in a message, it'd see all these bad words in innocent messages- meaning a lot of perfectly fine message would get blocked. To accommodate for this, the bot will go through a proccess of determining if the intent of the message is bad. Putting an underscore in front of a word in the blacklist will tell the bot that, if that word is found ANYWHERE in the message, to just block it without going through that whole proccess.
 
+
 **Question**: Why is nothing getting blocked?
+
 **Answer**: Make sure:
 - The bot can see the channel's messages, and has the Manage Message permission. You can just give it Administrator to get rid of this problem entirely
 - Make sure your blacklist is not empty. If you're trying to block good words in the inexact-match section, put an underscore in front of the good words in the blacklist
 - Click on the bot's profile, and check if there's a green dot by it's logo (meaning it's online). If you see a grey, empty circle, it mean's the bot is offline. If this is the case, please join the support server and tell.
 
+
 **Question**: If I remove the bot from my server, will the blacklist be deleted?
+
 **Answer**: Yes. Everything, including strikes, limits and bypasses will be deleted. 
