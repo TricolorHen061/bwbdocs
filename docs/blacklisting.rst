@@ -54,6 +54,7 @@ Blacklist FAQ
 **Question**: Why is nothing getting blocked?
 
 **Answer**: Make sure:
+
 - The bot can see the channel's messages, and has the Manage Message permission. You can just give it Administrator to get rid of this problem entirely
 
 - Make sure your blacklist is not empty. If you're trying to block good words in the inexact-match section, put an underscore in front of the good words in the blacklist
