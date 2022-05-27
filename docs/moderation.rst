@@ -8,5 +8,3 @@ Moderation Command List
 ``clear``
     Clears a specified amount of messages from a channel. Note that it can only remove messages that are two weeks are newer, and you can only clear up to ``99`` at one time. Has one required parameter: ``amount``. ``amount`` is the amount of messages it should delete.
 
-``warn``
-    Gives a member one strike, along with a message that you can customize when typing in the command

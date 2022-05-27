@@ -14,7 +14,7 @@ When you run `/blacklist`, you'll be prompted with a popup like this:
 
 
 .. note::
-    When you run it for the first time, you'll see that it's already filled with the defaults. Feel free to change it to however you want.
+    When you run it for the first time, you'll see that it'll be filled with defaults. Change it however you want.
 
 As you can see in the image, it's seperated into 4 sections:
 
@@ -34,14 +34,26 @@ Links
 Editing the sections 
 ====================
 
-Editing the sections are very straitfoward. Just type in the items you want and hit the ``Submit`` button when you're done. Make sure the items are seperated by a comma ``,``. While it doesn't matter, it's recommended that you seperate them with a comma *and* a space ``, ``, for readability.
-
+Just type in the items you want and hit the ``Submit`` button when you're done. Make sure the items are seperated by a comma ``,``. While it doesn't matter, it's recommended that you seperate them with a comma *and* a space, for readability.
 
 ======================
 Adding non-swear items
 ======================
 
-While the bot is meant for blocking *bad* words, links, and phrases, it can also block normal ones if you add them.
+While the bot is meant for blocking bad words, links, and phrases, it can also block normal ones if you add them. **Note:** If you are adding non-swear words to the **inexact** match, you HAVE to put an underscore (a ``_``) in front of the good words, in th blacklist.
 
-.. warning::
-    If you are adding normal words to the ``Inexact-match`` section, you have to put an underscore ``_`` in front of the word.
+=============
+Blacklist FAQ
+=============
+
+**Question**: What does an underscore in front of a blacklisted word mean???
+**Answer**: When the English language was being created, I guess the creators thought it'd be funny to put bad words in normal words and phrases. Some of these words, for example, are "mASS", "clASS", "That's a BIT CHeap!", and even "I uSE Xbox" (Look at the uppercase letters). These types of words are everywhere. If the bot based it's filter off of only checking if a bad word is in a message, it'd see all these bad words in innocent messages- meaning a lot of perfectly fine message would get blocked. To accommodate for this, the bot will go through a proccess of determining if the intent of the message is bad. Putting an underscore in front of a word in the blacklist will tell the bot that, if that word is found ANYWHERE in the message, to just block it without going through that whole proccess.
+
+**Question**: Why is nothing getting blocked?
+**Answer**: Make sure:
+- The bot can see the channel's messages, and has the Manage Message permission. You can just give it Administrator to get rid of this problem entirely
+- Make sure your blacklist is not empty. If you're trying to block good words in the inexact-match section, put an underscore in front of the good words in the blacklist
+- Click on the bot's profile, and check if there's a green dot by it's logo (meaning it's online). If you see a grey, empty circle, it mean's the bot is offline. If this is the case, please join the support server and tell.
+
+**Question**: If I remove the bot from my server, will the blacklist be deleted?
+**Answer**: Yes. Everything, including strikes, limits and bypasses will be deleted. 

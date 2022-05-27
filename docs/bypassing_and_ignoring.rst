@@ -2,7 +2,7 @@
 Bypassing
 *********
 
-Sometimes, you'll want certain roles or channels to bypass the bot's filter. This article will show you how to do that.
+Sometimes, you'll want certain roles or channels to bypass the bot's filter.
 
 =================
 Using ``/bypass``

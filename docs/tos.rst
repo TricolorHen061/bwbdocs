@@ -1,7 +1,7 @@
 Terms of Service
 ================
 
-**Short version:** Use common sense. Don't abuse or copy the bot. Thanks.
+**Short version:** Use your common sense. Don't abuse or copy the bot.
 
 **Long version**:
 
