@@ -38,12 +38,12 @@ In Practice
 ===========
 
 This is where Bad Word Blocker probably shines the most. In reality, users of your Discord server will try to bypass the filter. Let's say you try to block the word "tree". Members of your server will try to bypass it by messing up the word in many ways, like:
-    - t ree
-    - tr reee
-    - treeeeeeeee
-    - t r e e 
-    - ttttrrrrrrrrreeeeeeee
-    - ttttt rrrrrr eeeee
+    t ree
+    tr reee
+    treeeeeeeee
+    t r e e 
+    ttttrrrrrrrrreeeeeeee
+    ttttt rrrrrr eeeee
 
 If you were to add "tree" to Bad Word Blocker's blacklist, it would catch all of those attempted bypasses automatically. With Discord's automod, it's possible to block all of those, but it will take lots of work. You almost certainly run into the `Scunthorpe problem <https://en.wikipedia.org/wiki/Scunthorpe_problem>`_ (false positives) too.
 
