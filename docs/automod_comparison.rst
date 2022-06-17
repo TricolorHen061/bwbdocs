@@ -33,6 +33,7 @@ Private servers           Can use Bad Word Blocker               Do not have acc
 
 Bad Word Blocker generally has more features than automod does. It's important to note that the bot has been around for 3 years, while automod has been around for only 1 month (as of writing this). The Discord team has said they intend to improve automod. It will probably gain more features over time.
 
+===========
 In Practice
 ===========
 
