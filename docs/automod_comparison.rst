@@ -35,6 +35,7 @@ Bad Word Blocker generally has more features than automod does. It's important t
 
 In Practice
 ===========
+
 This is where Bad Word Blocker probably shines the most. In reality, users of your Discord server will try to bypass the filter. Let's say you try to block the word "tree". Members of your server will try to bypass it by messing up the word in many ways, like:
     - t ree
     - tr reee
