@@ -7,7 +7,6 @@ Welcome to the official documentation for Bad Word Blocker. Here, you can learn 
 
 .. toctree::
    before_you_read
-   whats_changed
    inviting
    blacklisting
    strikes
