@@ -34,21 +34,21 @@ Links
 Editing the sections 
 ====================
 
-Just type in the items you want and hit the ``Submit`` button when you're done. Make sure the items are seperated by a comma ``,``. While it doesn't matter, it's recommended that you seperate them with a comma *and* a space, for readability.
+Just type in the items, seperated by a comma (`,`) like in the image above, and press `Submit`. Optionally putting spaces after commas will not affect anything.
 
 ======================
 Adding non-swear items
 ======================
 
-While the bot is meant for blocking bad words, links, and phrases, it can also block normal ones if you add them. **Note:** If you are adding non-swear words to the **inexact** match, you HAVE to put an underscore (a ``_``) in front of the good words, in th blacklist.
+While the bot is meant for blocking bad words, links, and phrases, it can also block normal ones if you add them. **Note:** If you are adding non-swear words to the **inexact** match, you HAVE to put an underscore (a ``_``) in front of the good words, in the blacklist. Read the below Q&A section for more information as to why this needs to be done.
 
 =============
 Blacklist FAQ
 =============
 
-**Question**: What does an underscore in front of a blacklisted word mean???
+**Question**: What does an underscore in front of a blacklisted word mean?
 
-**Answer**: When the English language was being created, I guess the creators thought it'd be funny to put bad words in normal words and phrases. Some of these words, for example, are "mASS", "clASS", "That's a BIT CHeap!", and even "I uSE Xbox" (Look at the uppercase letters). These types of words are everywhere. If the bot based it's filter off of only checking if a bad word is in a message, it'd see all these bad words in innocent messages- meaning a lot of perfectly fine message would get blocked. To accommodate for this, the bot will go through a proccess of determining if the intent of the message is bad. Putting an underscore in front of a word in the blacklist will tell the bot that, if that word is found ANYWHERE in the message, to just block it without going through that whole proccess.
+**Answer**: In the English language, there are some bad words in normal words (e.g. **ass**ignment). Normally, if a bad word is detected, the bot would check to make sure the word is not a part of a normal word. Putting an underscore in front of a word tells the bot to skip this step and immediately delete the message. Useful for bad words that are not contained within any normal words.
 
 
 **Question**: Why is nothing getting blocked?
