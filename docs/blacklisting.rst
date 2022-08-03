@@ -34,7 +34,7 @@ Links
 Editing the sections 
 ====================
 
-Just type in the items, seperated by a comma (`,`) like in the image above, and press `Submit`. Optionally putting spaces after commas will not affect anything.
+Just type in the items you wish to add, seperated by a comma, and press `Submit`. Optionally putting spaces after commas will not affect anything.
 
 ======================
 Adding non-swear items
