@@ -40,7 +40,7 @@ Just type in the items, seperated by a comma (`,`) like in the image above, and 
 Adding non-swear items
 ======================
 
-While the bot is meant for blocking bad words, links, and phrases, it can also block normal ones if you add them. **Note:** If you are adding non-swear words to the **inexact** match, you HAVE to put an underscore (a ``_``) in front of the good words, in the blacklist. Read the below Q&A section for more information as to why this needs to be done.
+While the bot is meant for blocking bad words, links, and phrases, it can also block normal ones if you add them. **Note:** If you are adding non-swear words to the **inexact** match, you HAVE to put an underscore (a ``_``) in front of the good words, in the blacklist. Read the below FAQ section for more information as to why this needs to be done.
 
 =============
 Blacklist FAQ
