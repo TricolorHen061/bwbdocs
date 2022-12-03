@@ -14,4 +14,4 @@ When a person gets their message blocked, they will get a "strike". It's just a 
 Viewing and managing strikes
 ----------------------------
 
-To see how many strikes a person has, run ``/strikes``. The bot will send an embed containing their strikes. If you're a moderator, you can press the ``Edit`` button to change their strikes.
+To see how many strikes a person has, run ``/strikes view``. If you're a moderator, you can use ``/strikes set`` to set their strikes.

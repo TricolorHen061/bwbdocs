@@ -5,7 +5,7 @@ Welcome
 Welcome to the official documentation for Bad Word Blocker. Please select the topic below
 
 
-.. toctree::
+.. toctree:: 
    before_you_read
    inviting
    blacklisting

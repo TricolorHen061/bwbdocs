@@ -3,10 +3,10 @@ Customization
 
 You can customize how the bot behaves when it blocks a message.
 
-Using ``/customize``
+Using ``/custom_embed``
 ====================
 
-When you run ``/customize``, you'll be prompted with a popup that will have 3 things on it:
+When you run ``/custom_embed``, you'll be prompted with a popup that will have 3 things on it:
 
 Content
     What the bot will send when it blocks a message
@@ -38,3 +38,5 @@ Color
 Delete self after
     How long the bot should wait (in seconds) before it deletes it's own message. Set to 0 to tell it to not delete at all.
 
+Title
+    Title of embed
