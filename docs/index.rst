@@ -16,4 +16,5 @@ Welcome to the official documentation for Bad Word Blocker. Please select the to
    configuration_and_customization
    tos
    privacy_policy
+   patreons
    about
