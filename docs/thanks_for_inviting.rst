@@ -1,6 +1,6 @@
-Thanks for Inviting the bot!
+Thanks for Inviting Bad Word Blocker!
 ===========================
-**If you just invited the bot, you do not need to do anything else.** It should start filtering your server immediately. 
+**You do not need to do anything else.** It should start filtering your server immediately. 
 
 However, if you want to learn how to customize the bot to make it yours, this is the right place. Just choose a category from the bar on the left.
 

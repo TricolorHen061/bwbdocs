@@ -46,8 +46,8 @@ Example
 
 Example configuration:
 
-.. image:: custom_embed_example.png
+.. image:: images/custom_embed_example.png
 
 Resulting embed:
 
-.. image:: result_embed_example.png
+.. image:: images/result_embed_example.png
