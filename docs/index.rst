@@ -13,7 +13,7 @@ Welcome to the official documentation for Bad Word Blocker. Please select the to
    limits
    bypassing_and_ignoring
    logs
-   configuration_and_customization
+   customization
    tos
    privacy_policy
    patreons

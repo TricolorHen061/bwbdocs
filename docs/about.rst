@@ -7,8 +7,8 @@ It was created in December of 2019. Since then, it has steadily grown into thous
 
 Here are the technolgies used:
 
-- Programming language: It was initially created in Python, but it's been remade in TypeScript
-- Runtime: node.js
-- Library: Detritus
+- Programming language: F#
+- Runtime: .NET
+- Library: Discord.NET
 - Database: MongoDB
 - OS: Ubuntu Server

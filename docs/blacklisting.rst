@@ -25,19 +25,20 @@ Phrases
     This section is for when you want to block a *group* of 2 or more words, instead of individual ones. You can add phrases like "screw you" here, for example.
 
 Links
-    For website links. Note that they have to start with either ``http`` or ``https``, or the bot won't count it as a valid link.
+    For website links. Note that they have to start with either ``http://`` or ``https://``, or the bot won't count it as a valid link.
 
 ====================
 Editing the sections 
 ====================
 
-Just type in the items you wish to add, seperated by a comma, and press `Submit`. Optionally putting spaces after commas will not affect anything.
+Type in the items you wish to add, seperated by a comma, and press `Submit`. Putting spaces after commas will not affect anything.
 
 ======================
 Adding non-swear items
 ======================
 
-While the bot is meant for blocking bad words, links, and phrases, it can also block normal ones if you add them. **Note:** If you are adding non-swear items to the **words** section, you MUST put an underscore (a ``_``) in front of the non-swear words. Read the below FAQ section for more information as to why this needs to be done.
+While the bot is meant for blocking bad words, links, and phrases, it can also block normal ones if you add them.
+**Note:** If you are adding non-swear items to the **words** section, you MUST put an underscore (a ``_``) in front of the non-swear words. Read the below FAQ section for more information as to why this needs to be done.
 
 =============
 Blacklist FAQ

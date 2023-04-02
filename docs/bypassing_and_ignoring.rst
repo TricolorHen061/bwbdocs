@@ -13,6 +13,6 @@ You can allow roles and channels to bypass the bot. The ``/bypass`` command has 
 - ``/bypass role``
 - ``/bypass channel``
   
-Obviously, ``/bypass role`` is for allowing a role to bypass the bot, and ``/bypass channel`` is for allowing a channel to bypass the bot. Just run them and fill out the parameters that are shown on-screen accordingly.
+Obviously, ``/bypass role`` is for allowing a role to bypass the bot, and ``/bypass channel`` is for allowing a channel to bypass the bot.
 
 If you want to remove a role or channel from bypassing, use `/bypass manage`.
