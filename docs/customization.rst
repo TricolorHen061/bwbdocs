@@ -9,9 +9,10 @@ Using ``/custom_embed``
 When you run ``/custom_embed``, you'll be prompted with a popup that has 4 things on it:
 
 Content
-    What the bot will send when it blocks a message
+    What the bot will send when it blocks a message. Sometimes, you'll want the bot to change the embed text depending on the situation. For this, we use "placeholders".
 
-    Placeholders:
+    You can use these placeholders, which will be replaced with the actual thing when an embed is sent:
+        
         ``{username}`` - The author's username
 
         ``{tag}`` - The author's tag (the 4 numbers after their #)
