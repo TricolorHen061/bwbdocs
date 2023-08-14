@@ -1,18 +1,31 @@
 Limits
 ======
 
-This article will teach you what limits are, and how to use them.
-
 What are limits?
 ----------------
 
-Counting strikes would be useless if it were not for limits. You can use limits to put a "cap" on the amount of strikes a user can get before they get a punishment, like a timeout, kick, or ban.
+Limits put a "cap" on the amount of strikes a person can get before something happens.
+
+Creating a New Limit
+--------------------
+
+Use the ``/limit add`` command to add a new limit.
+
+A limit takes two things at a bare minimum: an `amount` and an `action`. After the amount of strikes has been reached, then the action will be done.
+
+You can currently choose from the following ``action``s:
+
+- ``ban``- Ban member from the server
+
+- ``kick``- Kick member from the server
+
+- ``timeout``- Timeout a member
+
+- ``Mute Role``- Give the member a certain mute role
+
+Additionally, you can set a time limit, or a ``duration``, that will tell the bot when to remove the punishment.
 
 Managing Limits
 ---------------
 
-You can add a limit by running the ``/limits add`` command. You can delete them by running the ``/limits manage`` command.
-
-A limit takes 2 things: A strike amount and an action. When a person reaches the strike amount, they get the action. So for exmaple, if you add a limit with an amount of ``3``, and an action of ``ban``, when a person reaches 3 strikes, they'll get banned.
-
-You can also add an optional time limit (in minutes) if you want the action to be undone.
+You can view/delete limits by running the ``/limits manage`` command.

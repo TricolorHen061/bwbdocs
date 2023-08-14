@@ -11,7 +11,7 @@ Welcome to the official documentation for Bad Word Blocker. Please select the to
    blacklisting
    strikes
    limits
-   bypassing_and_ignoring
+   bypassing
    logs
    customization
    tos

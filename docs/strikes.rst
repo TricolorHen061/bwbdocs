@@ -1,8 +1,6 @@
 Strikes
 =======
 
-This article will explain what strikes are, and how to manage them.
-
 What are strikes?
 -----------------
 
