@@ -13,7 +13,7 @@ Use the ``/limit add`` command to add a new limit.
 
 A limit takes two things at a bare minimum: an `amount` and an `action`. After the amount of strikes has been reached, then the action will be done.
 
-You can currently choose from the following ``action``s:
+You can currently choose from the following actions:
 
 - ``ban``- Ban member from the server
 
