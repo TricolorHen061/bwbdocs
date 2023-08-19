@@ -71,7 +71,7 @@ Blacklist FAQ
 - "suuuuuuuuuck"
 - "s uuuuuu cc kkkkk"
 
-Yes, most of the time, the bot will catch these types of circumventions. Careful thought has been put into Bad Word Blocker reguarding this issue. Note that no filter in the world is perfect, and if someone tries hard enough, there will *always* be a way to get around *every* filter.
+Yes, most of the time, the bot will catch these types of circumventions. Careful thought has been put into Bad Word Blocker regarding this issue. Note that no filter that is perfect, and if someone tries hard enough, there will *always* be a way to get around *every* filter.
 
 **Question**: Why is nothing getting blocked?
 
