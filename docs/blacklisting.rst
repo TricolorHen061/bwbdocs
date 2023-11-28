@@ -6,9 +6,9 @@ Everything the bot should block is organized in a blacklist. It's seperated into
 Obviously, all words should go into the "word" section, all phrases should go in the "phrases" section, and all links should go in the "links" section.
 
 
-==========================
-Editing with the Blacklist
-==========================
+=====================
+Editing the Blacklist
+=====================
 
 To edit your server's blacklist, run the ``/blacklist`` slash command. You'll be prompted with a popup like this:
 
