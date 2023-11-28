@@ -20,7 +20,7 @@ To edit your server's blacklist, run the ``/blacklist`` slash command. You'll be
 
 
 Words
-    This section is for individual bad words. If you wish to block words that are not swear words, read the FAQ below. 
+    This section is for individual bad words. If you wish to block words that are not swear words, read "Disabling Normal Word Checker" section.
 
 Phrases
     This section is for when you want to block a *group* of 2 or more words, instead of individual ones. You can add phrases like "screw you" here, for example.
