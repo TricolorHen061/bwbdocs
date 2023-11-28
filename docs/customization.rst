@@ -4,7 +4,7 @@ Customization
 You can customize how the bot behaves when it blocks a message.
 
 Using ``/custom_embed``
-=====================
+=======================
 
 When you run ``/customize_embed``, you'll be prompted with a popup that has 4 things on it:
 
