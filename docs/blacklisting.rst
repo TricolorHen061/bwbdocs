@@ -1,12 +1,17 @@
-************
-Blacklisting
-************
+*********
+Blacklist
+*********
+Everything the bot should block is organized in a blacklist. It's seperated into 3 parts:
+- Words
+- Phrases
+- Links
+  
+Obviously, all words should go into the "word" section, all phrases should go in the "phrases" section, and all links should go in the "links" section.
 
-This article will show you how to manage the blacklist for your server.
 
-================================
-Using the ``/blacklist`` command
-================================
+=======================================
+Editing with the ``/blacklist`` command
+=======================================
 
 When you run ``/blacklist``, you'll be prompted with a popup like this:
 
@@ -14,9 +19,8 @@ When you run ``/blacklist``, you'll be prompted with a popup like this:
 
 
 .. note::
-    When you run it for the first time, you'll see that it'll be filled with defaults. Feel free to change it.
+    When you run it for the first time, you'll see that it'll be filled with defaults. You can freely change it.
 
-As you can see in the image, it's seperated into 3 sections:
 
 Words
     This section is for individual bad words. If you wish to block words that are not swear words, read the FAQ below. 
@@ -43,9 +47,9 @@ Additional Options For Word Blocking
 Disabling Normal Word Checker
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-There are actually a lot of words in the English language that contain bad words within themselves. For example, the word "class" contains "ass". These types of words are called "profanity-adjacent words".
+There are a lot of words in the English language that contain bad words within themselves. For example, the word "class" contains "ass". These types of words are called "profanity-adjacent" words.
 
-When Bad Word Blocker sees a blacklisted word in a message, in order to prevent false positives, it makes sure it is not a profanity-adjacent word.
+When Bad Word Blocker sees a blacklisted word in a message, in order to make sure it is not a profanity-adjacent word, it checks if the word is a normal English word.
 
 However, in some cases, if you are trying to block a word that's not a swear word, then you'll need to disable this check. In order to do so, put an underscore (a "_") in front of the word in the blacklist.
 So for example, if you are trying to block the word "tree", then you'll need to put "_tree" into the blacklist to let the bot know the word "tree" not a swear word.
@@ -64,14 +68,14 @@ Blacklist FAQ
 
 **Question**: When people try to circumvent the filter, will it catch them?
 
-**Answer**: It's a fact that people will try to find ways to get around the filter. For example, if you're trying to block the word "suck", they might type in:
+**Answer**: People will always find ways to get around the filter. For example, if you're trying to block the word "suck", they might type in:
 
 - "s*ck"
 - "s u c k"
 - "suuuuuuuuuck"
 - "s uuuuuu cc kkkkk"
 
-Yes, most of the time, the bot will catch these types of circumventions. Careful thought has been put into Bad Word Blocker regarding this issue. Note that no filter that is perfect, and if someone tries hard enough, there will *always* be a way to get around *every* filter.
+Yes, Bad Word Blocker will catch most of them so you don't have to worry about manually entering in every single variation you can think of. Careful thought has been put into Bad Word Blocker regarding this issue. Note that no filter that is perfect, and if someone tries hard enough, there will *always* be a way to get around *every* filter.
 
 **Question**: Why is nothing getting blocked?
 

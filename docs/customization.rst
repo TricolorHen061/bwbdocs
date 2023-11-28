@@ -8,7 +8,7 @@ Using ``/custom_embed``
 
 When you run ``/customize_embed``, you'll be prompted with a popup that has 4 things on it:
 
-Title
+Title (PREMIUM ONLY)
     What the title of the embed will be
 Embed Description
     What the bot will send when it blocks a message. Sometimes, you'll want the bot to change the embed text depending on the situation. For this, we use "placeholders".
@@ -37,7 +37,7 @@ Embed Description
         
         ``{next_limit_strikes}`` - If you have a limit set up, the strikes of the next limit.
 
-Embed Color
+Embed Color (PREMIUM ONLY)
     Int value of the color of the embed. Use this webpage to get the int value of the color you want: https://gist.github.com/thomasbnt/b6f455e2c7d743b796917fa3c205f812
 Delete Embed After Seconds
     How long the bot should wait (in seconds) before it deletes it's own message. Set to 0 to not delete at all. Set to -1 to not send in the first place.

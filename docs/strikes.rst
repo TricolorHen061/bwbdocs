@@ -12,4 +12,4 @@ When a person gets their message blocked, they will get a "strike". It's simply 
 Viewing and managing strikes
 ----------------------------
 
-To see how many strikes a person has, run ``/strikes view``. If you're a moderator, you can use ``/strikes edit`` to edit their strikes.
+To see how many strikes a person has, run ``/strikes view``. If you're a moderator, you can use ``/strikes set`` to edit their strikes.
