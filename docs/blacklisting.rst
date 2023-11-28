@@ -6,11 +6,11 @@ Everything the bot should block is organized in a blacklist. It's seperated into
 Obviously, all words should go into the "word" section, all phrases should go in the "phrases" section, and all links should go in the "links" section.
 
 
-=======================================
-Editing with the ``/blacklist`` command
-=======================================
+==========================
+Editing with the Blacklist
+==========================
 
-When you run ``/blacklist``, you'll be prompted with a popup like this:
+To edit your server's blacklist, run the ``/blacklist`` slash command. You'll be prompted with a popup like this:
 
 .. image:: images/blacklist_popup.png
 
@@ -34,9 +34,9 @@ Editing the sections
 
 Type in the items you wish to add, seperated by a comma. Putting spaces after commas will not affect anything.
 
-====================================
-Additional Options For Word Blocking
-====================================
+================================================
+Additional Options For Word Blocking (Modifiers)
+================================================
 
 **NOTE:** These two features are OPTIONAL. You do not need to use them. They only work with the "words" section in the blacklist.
 
@@ -52,7 +52,7 @@ However, in some cases, if you are trying to block a word that's not a swear wor
 So for example, if you are trying to block the word "tree", then you'll need to put "_tree" into the blacklist to let the bot know the word "tree" not a swear word.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Only Blocking if an exact-match is Found
+Only Blocking If An exact-match Is Found
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In some very rare cases, you may want to block a word ONLY if it is found exactly as described in the blacklist. To indicate this, put an ampersand, which is the "&" symbol, in front of the word in the blacklist.
