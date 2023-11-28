@@ -1,10 +1,7 @@
 *********
 Blacklist
 *********
-Everything the bot should block is organized in a blacklist. It's seperated into 3 parts:
-- Words
-- Phrases
-- Links
+Everything the bot should block is organized in a blacklist. It's seperated into 3 parts: Words, Phrases, and Links
   
 Obviously, all words should go into the "word" section, all phrases should go in the "phrases" section, and all links should go in the "links" section.
 

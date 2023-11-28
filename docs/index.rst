@@ -2,7 +2,7 @@
 Welcome
 ########
 
-Welcome to the official documentation for Bad Word Blocker. Please select the topic below
+Welcome to the official documentation for Bad Word Blocker. Please select a topic below.
 
 
 .. toctree:: 
