@@ -16,5 +16,5 @@ Welcome to the official documentation for Bad Word Blocker. Please select a topi
    customization
    tos
    privacy_policy
-   patreons
+   premium
    about
