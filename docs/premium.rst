@@ -12,5 +12,5 @@ With premium, you'll be able to get extra features:
 - Automod Integration (users are striked when automod is triggered)
 - (COMING SOON) Scan for blacklisted items in images 
   
-If you'd like to subscribe to premium, click here, click `here
+If you'd like to subscribe to premium, click `here
 <https://www.patreon.com/badwordblocker/membership>`_. 
